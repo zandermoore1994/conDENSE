@@ -14,7 +14,7 @@ We recommend using a pyenv virtual environment, the helper script `setup.sh` wil
 
 A helper script has been created to fascilitate running conDENSE on your data. The command below will run the model on sample data:
 
-    `python run.py --data_path data --univariate False`
+    `python run.py --data_path data`
 
 Please note that the argument data_path must point towards a directory with the following:
 - train.npy: normal time series to be used for training, ideally without anomalies. Shape: (n_train_timesteps, n_features)

@@ -53,7 +53,7 @@ class DatasetLoader:
     
 
     def apply_sliding_window(
-        self, data: np.ndarray, window_size: int, univariate: bool = True
+        self, data: np.ndarray, window_size: int, univariate: bool = False
     ) -> np.ndarray:
         """Apply sliding window to time series.
 
