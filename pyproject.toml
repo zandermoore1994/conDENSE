@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "conDENSE"
+version = "0.1.0"
+description = "conditional density estimation for multivariate time series anomaly detection."
+authors = ["Alex Moore <zandermoore1994@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "*"
+tensorflow = "^2.15.0"
+tensorflow-probability = "^0.23.0"
+scikit-learn = "*"
+keras = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
